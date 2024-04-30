@@ -8,6 +8,6 @@ public class playbtn : MonoBehaviour
    public void PlayGame()
     {
 
-        SceneManager.LoadSceneAsync("")
+        SceneManager.LoadSceneAsync(1);
     }
 }
