@@ -10,4 +10,10 @@ public class playbtn : MonoBehaviour
 
         SceneManager.LoadSceneAsync(1);
     }
+    public void QuitGame()
+    {
+
+        Application.Quit();
+    }
+   
 }
